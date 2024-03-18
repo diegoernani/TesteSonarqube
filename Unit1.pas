@@ -24,7 +24,7 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.HandleCustomMessage(var Msg: TMessage);
-var x: TStringList;
+var lx: TStringList;
 begin
   // Aqui você pode implementar o tratamento da mensagem personalizada.
   // Por exemplo, exibir uma mensagem ou executar alguma ação específica.
